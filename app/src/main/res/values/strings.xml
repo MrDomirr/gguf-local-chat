@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Local GGUF Chat</string>
+    <string name="status_engine_booting">Локальный движок запускается…</string>
+    <string name="status_engine_ready">Движок готов. Выберите GGUF-модель.</string>
+    <string name="status_importing">Импорт GGUF-модели…</string>
+    <string name="status_import_done">Модель импортирована.</string>
+    <string name="status_loading_selected">Загрузка выбранной модели…</string>
+    <string name="status_loading_model">Загрузка модели: %1$s</string>
+    <string name="status_unloading">Выгрузка предыдущей модели…</string>
+    <string name="status_model_ready">Модель готова: %1$s</string>
+    <string name="status_generating">Модель отвечает локально…</string>
+    <string name="status_prompt_processing">Подготовка запроса…</string>
+    <string name="status_busy">Локальный ИИ занят…</string>
+    <string name="status_error">Ошибка</string>
+    <string name="hint_pick_model_first">Сначала импортируйте GGUF-модель</string>
+    <string name="hint_importing">Импорт модели…</string>
+    <string name="hint_send_message">Введите сообщение и выберите модель</string>
+    <string name="toast_model_imported">Импортирована модель: %1$s</string>
+    <string name="toast_pick_model">Сначала выберите модель</string>
+    <string name="toast_empty_message">Сообщение пустое</string>
+    <string name="toast_history_cleared">История очищена</string>
+    <string name="error_prefix">Ошибка: %1$s</string>
+    <string name="no_models_text">Пока нет импортированных GGUF-моделей. Нажмите «Импорт» и выберите файл.</string>
+    <string name="label_you">Вы</string>
+
+    <!-- New UI strings -->
+    <string name="drawer_subtitle">Локальные GGUF модели</string>
+    <string name="drawer_models_section">Модели</string>
+    <string name="drawer_chats_section">Чаты</string>
+    <string name="action_new_chat">Новый чат</string>
+    <string name="action_import">Импортировать модель</string>
+    <string name="action_model_info">Информация о модели</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_stop">Стоп</string>
+    <string name="action_clear">Очистить чат</string>
+    <string name="action_send">Отправить</string>
+    <string name="sheet_title">Модель и настройки</string>
+    <string name="empty_state_title">Начните диалог</string>
+
+    <!-- Chat management -->
+    <string name="no_chats_text">Пока нет чатов</string>
+    <string name="chat_default_title">Новый чат</string>
+    <string name="action_chat_menu">Действия с чатом</string>
+    <string name="action_rename">Переименовать</string>
+    <string name="action_pin">Закрепить</string>
+    <string name="action_unpin">Открепить</string>
+    <string name="action_delete_chat">Удалить чат</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_ok">ОК</string>
+    <string name="dialog_rename_title">Переименовать чат</string>
+    <string name="dialog_delete_chat_title">Удалить чат?</string>
+    <string name="dialog_delete_chat_message">Чат «%1$s» и его сообщения будут удалены безвозвратно.</string>
+    <string name="toast_busy_wait">Дождитесь ответа модели или остановите генерацию</string>
+    <string name="toast_chat_deleted">Чат удалён</string>
+
+    <!-- Generation settings -->
+    <string name="settings_section_title">Настройки генерации</string>
+    <string name="settings_section_hint">Применяются к текущей и новым моделям. Изменение системного промпта требует перезагрузки модели.</string>
+    <string name="label_system_prompt">Системный промпт</string>
+    <string name="hint_system_prompt">Например: Ты полезный ассистент, отвечай кратко и по делу.</string>
+    <string name="label_max_tokens">Макс. токенов в ответе</string>
+    <string name="hint_max_tokens">1024</string>
+    <string name="action_save_settings">Сохранить настройки</string>
+    <string name="toast_settings_saved">Настройки сохранены</string>
+    <string name="toast_prompt_will_apply_next_load">Новый системный промпт применится при следующей загрузке модели</string>
+
+    <!-- File attachment -->
+    <string name="action_attach_file">Прикрепить файл</string>
+    <string name="action_remove_attachment">Убрать вложение</string>
+    <string name="toast_attachment_too_big">Файл слишком большой (макс. %1$d КБ)</string>
+    <string name="toast_model_not_vision">Эта модель не поддерживает изображения (в названии нет \"VL\")</string>
+    <string name="toast_pick_mmproj">Выберите файл mmproj (vision-проектор) для этой модели</string>
+    <string name="toast_mmproj_loaded">Vision-проектор загружен — модель теперь видит изображения</string>
+    <string name="toast_mmproj_failed">Не удалось загрузить vision-проектор (неподходящий файл?)</string>
+    <string name="status_loading_mmproj">Загрузка vision-проектора…</string>
+    <string name="action_import_mmproj">Загрузить mmproj (vision)</string>
+    <string name="toast_mmproj_no_model">Сначала выберите модель, для которой загружаете mmproj</string>
+    <string name="toast_attachment_not_text">Не удалось прочитать файл как текст</string>
+    <string name="attachment_prompt_template">Вот содержимое файла «%1$s»:\n\n%2$s\n\nВопрос пользователя: %3$s</string>
+    <string name="attachment_prompt_template_no_question">Прочитай содержимое файла «%1$s» и опиши, что в нём.\n\nСодержимое:\n\n%2$s</string>
+
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chat_row_root"
+    style="@style/DrawerRow"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="2dp"
+    android:paddingEnd="4dp">
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/ic_chat_24"
+        app:tint="@color/text_secondary" />
+
+    <TextView
+        android:id="@+id/chat_row_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/chat_row_pin"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="6dp"
+        android:src="@drawable/ic_pin_24"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/chat_row_more"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/bg_icon_button"
+        android:contentDescription="@string/action_chat_menu"
+        android:padding="6dp"
+        android:src="@drawable/ic_more_vert_24"
+        app:tint="@color/text_secondary" />
+
+</LinearLayout>

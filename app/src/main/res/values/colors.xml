@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base palette -->
+    <color name="bg_app">#FFFFFF</color>
+    <color name="bg_surface">#F7F7F8</color>
+    <color name="bg_drawer">#F7F7F8</color>
+    <color name="bg_input">#F0F0F2</color>
+
+    <color name="accent_primary">#6C5CE7</color>
+    <color name="accent_primary_dark">#5849C4</color>
+    <color name="accent_on_primary">#FFFFFF</color>
+
+    <color name="bubble_user">#6C5CE7</color>
+    <color name="bubble_user_text">#FFFFFF</color>
+    <color name="bubble_assistant">#F0F0F2</color>
+    <color name="bubble_assistant_text">#1C1C1E</color>
+
+    <color name="text_primary">#1C1C1E</color>
+    <color name="text_secondary">#6B6B70</color>
+    <color name="text_disabled">#B0B0B5</color>
+
+    <color name="divider">#E5E5EA</color>
+    <color name="drawer_item_selected">#EDE9FE</color>
+    <color name="ripple">#1F6C5CE7</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
